@@ -1,0 +1,47 @@
+{
+  "name": "coastal-cream-theme",
+  "displayName": "Coastal Cream Theme",
+  "description": "Creamy coastal palette: warm sand and sea blue in the light variant, a neutral graphite coast at night in the dark one.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "coastal",
+    "cream",
+    "blue",
+    "sand",
+    "pastel"
+  ],
+  "icon": "assets/icon.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "galleryBanner": {
+    "color": "#1F252B",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/coastal-cream-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Coastal Cream Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/coastal-cream-light-color-theme.json"
+      },
+      {
+        "label": "Coastal Cream Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/coastal-cream-dark-color-theme.json"
+      }
+    ]
+  }
+}

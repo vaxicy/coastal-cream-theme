@@ -1,0 +1,16 @@
+:root {
+  --sky: #a6d3ef;
+  --sea: #4e86a8;
+  --sand: #fee6bb;
+  --mint: #cee2d0;
+  --cream: #fdf9f7;
+  --ink: #3a4650;
+}
+
+.coastal-card {
+  background: var(--cream);
+  border: 1px solid var(--sand);
+  border-radius: 14px;
+  color: var(--ink);
+  padding: 16px 20px;
+}
